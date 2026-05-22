@@ -1,16 +1,9 @@
 #+title: abe's literate configuration for GNU Emacs
 #+author: abe
 
-2024 refix edition!
-
 This is my personal configuration for GNU Emacs. It is written in a
 literate style, combining code snippets and documentation in the same
 file.
-
-These days I use Emacs a lot less than I used to when this
-configuration was originally written. This means a lot of big features
-I used to have are now disabled, and a lot of complexity has been
-stripped down.
 
 The [[file:config.org][config.org]] file serves as the single point of entry into this
 Emacs configuration. There, code is defined and explained.
