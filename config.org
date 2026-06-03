@@ -384,8 +384,13 @@ enable them again.
 
 ** Scrolling
 
+By default, Emacs' scrolling behavior can be a bit jarring: it scrolls
+a whole page when you get to the end of the current page. I've
+actually come to like this behavior, so I simply reaffirm it here, but
+this can be modified by setting the following variable:
+
 #+begin_src emacs-lisp :tangle init.el
-  (setq scroll-conservatively 20)
+  (setq scroll-conservatively 0)
 #+end_src
 
 * User credentials
