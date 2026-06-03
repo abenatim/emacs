@@ -17,3 +17,6 @@
 /org-roam.db
 /url/
 /dmenu-items
+*.png
+/eww-bookmarks
+/games/

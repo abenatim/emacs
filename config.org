@@ -1220,9 +1220,10 @@ here for that purpose.
   (set-frame-parameter nil 'alpha-background 100) 
   (add-to-list 'default-frame-alist '(alpha-background . 100))
 #+end_src
+
 * EXWM
 
-#+begin_src emacs-lisp
+#+begin_src emacs-lisp 
   (use-package dmenu
     :ensure t
     :bind
@@ -1264,7 +1265,7 @@ here for that purpose.
             ([?\s-q] . delete-window)
             ([?\s-f] . zoom-mode)
             ([?\s-o] . other-window)
-            ([<s-return>] . vterm-other-window)
+            ([s-<return>] . vterm-other-window)
             ([<s-left>] . windmove-left)
             ([<s-down>] . windmove-down)
             ([<s-up>] . windmove-up)
