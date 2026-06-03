@@ -1123,6 +1123,7 @@ library. =nerd-icons= provides icons from Nerd Fonts, which I use.
     :custom
     (dashboard-center-content t)
     (dashboard-vertically-center-content t)
+    (initial-buffer-choice 'dashboard-open)
     (dashboard-startup-banner 'logo)
     (dashboard-banner-logo-title "Welcome to GNU Emacs!")
     (dashboard-items '((recents . 5)
