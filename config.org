@@ -940,6 +940,18 @@ detailed info.
     (org-fontify-quote-and-verse-blocks t))
 #+end_src
 
+** Beautifying Org
+
+#+begin_src emacs-lisp :tangle init.el
+  ;; (use-package org-appear
+  ;;   :ensure t
+  ;;   :hook
+  ;;   (org-mode-hook . org-appear-mode)
+    ;; :custom
+    (setq org-hide-emphasis-markers t)
+    ;; (org-appear-trigger))
+#+end_src
+
 ** Zettelkasten notes with =org-roam=
 
 #+begin_src emacs-lisp :tangle init.el
