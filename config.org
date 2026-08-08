@@ -1217,7 +1217,7 @@ based on this.
     :custom
     (custom-safe-themes t)
     :config
-    (load-theme 'ef-frost))
+    (load-theme 'modus-vivendi))
 #+end_src
 
 I like using the Iosevka font. Here we set it up.
