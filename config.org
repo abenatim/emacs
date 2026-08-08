@@ -645,7 +645,6 @@ convenient key.
     (interactive)
     (kill-buffer))
 #+end_src
-
 ** Proportional window resizing
 
 When you split a window with C-x 2 or C-x 3, Emacs halves the current
