@@ -1063,7 +1063,8 @@ improve its interface and allow it to open files externally.
     (wdired-allow-to-change-permissions t)
     :bind
     (:map dired-mode-map
-  	(("o" . dired-xdg-open))))
+  	(("o" . dired-xdg-open)
+  	 ("s" . eshell))))
 
   (use-package dired-hide-dotfiles
     :ensure t
