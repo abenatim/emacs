@@ -806,6 +806,14 @@ the normal double space.
   (setq sentence-end-double-space nil)
 #+end_src
 
+** Mark ring
+
+With this feature enabled, we can pop the mark ring more easily.
+
+#+begin_src emacs-lisp :tangle init.el
+  (setq set-mark-command-repeat-pop t)
+#+end_src
+
 ** Auto-fill text
 
 I like my text to wrap nicely in plain text files. =auto-fill-mode=
